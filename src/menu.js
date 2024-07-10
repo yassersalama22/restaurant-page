@@ -1,4 +1,4 @@
-import sandwich1 from './pexels-kamila-bairam-80608214-12123655.jpg';
+import sandwich1 from './pexels-milan-3053700-4637735.jpg';
 import sandwich2 from './pexels-mirkofabian-11975890.jpg';
 import sandwich3 from './pexels-valeriya-1639557.jpg';
 
