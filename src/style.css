@@ -62,3 +62,42 @@ nav button:hover {
 .hero p {
     font-size: 24px;
 }
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: #222;
+}
+
+.menu-item {
+    flex: 1 1 300px;
+    margin: 10px;
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.menu-itme h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.menu-item p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.menu-item span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f90;
+}

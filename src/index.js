@@ -1,5 +1,6 @@
 import './style.css';
 import loadHome from './home';
+import loadMenu from './menu';
 
 function clearContent() {
     const content = document.getElementById('content');
@@ -21,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.querySelector('nav button:nth-child(2)').addEventListener('click', () => {
         clearContent();
-        console.log('Second button clicked');
+        document.getElementById('content').appendChild(loadMenu());
     });
 
     document.querySelector('nav button:nth-child(3)').addEventListener('click', () => {
