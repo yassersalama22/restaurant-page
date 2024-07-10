@@ -1,6 +1,6 @@
-import sandwich1 from './pexels-milan-3053700-4637735.jpg';
-import sandwich2 from './pexels-mirkofabian-11975890.jpg';
-import sandwich3 from './pexels-valeriya-1639557.jpg';
+import sandwich1 from './pexels-milan-3053700-4637735.jpeg';
+import sandwich2 from './pexels-mirkofabian-11975890.jpeg';
+import sandwich3 from './pexels-valeriya-1639557.jpeg';
 
 export default function loadMenu() {
     const main = document.createElement('main');
